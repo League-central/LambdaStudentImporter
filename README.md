@@ -9,6 +9,7 @@ AWS Lambda function used to import League Student and Attendance data from Pike1
 <br>    c) Select LambdaStudentImport project, right click to select "Run As", then select "Maven Build".
 <br>    d) Set goals to 'package' and run the build.
 <br>    e) The resulting jar file will be located in the target subdirectory.
+<br>    f) For subsequent builds, first set goals=clean and run, then re-build with goals=package.
 
 2) Uploading as AWS Lambda function:
 <br>    a) Sign-in to League AWS account.
